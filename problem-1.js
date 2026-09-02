@@ -1,4 +1,6 @@
-const describeValue = (value: any): string => {
+// Problem-1
+
+const describeValue = (value) => {
     const type = typeof value;
     const truthyOrFalsy = value ? "truthy" : "falsy";
 
